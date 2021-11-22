@@ -1,0 +1,19 @@
+{
+  "name": "flowapp",
+  "version": "1.0.0",
+  "description": "sample flow app",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src/ -d dist/",
+    "prepublish": "npm run build "
+  },
+  "author": "Camiro",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-flow": "^6.23.0"
+  },
+  "dependencies": {
+    "flow-bin": "^0.165.1"
+  }
+}
